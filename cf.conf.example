@@ -1,0 +1,11 @@
+# ======================================================
+# Project : ST-LITE Auto Setup
+# Author  : Dark User
+# GitHub  : https://github.com/karisnacell69
+# ======================================================
+# Cloudflare Configuration (ST-LITE v2)
+# Replace values with your real token, email, zone and preferred subdomain prefix
+CF_EMAIL="you@example.com"
+CF_API_TOKEN="your_api_token_here"
+CF_ZONE="example.com"
+CF_RECORD_PREFIX="vpn"
