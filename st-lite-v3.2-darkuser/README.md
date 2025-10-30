@@ -1,4 +1,8 @@
 <p align="center">
+  <img src="darkuser-banner.png" alt="Dark User Tech Banner" width="100%">
+</p>
+
+<p align="center">
   <img src="darkuser-logo.svg" alt="Dark User Tech" width="800">
 </p>
 
