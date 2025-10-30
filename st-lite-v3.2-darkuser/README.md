@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="darkuser-banner.png" alt="Dark User Tech Banner" width="100%">
+  <img src="darkuser-banner-animated.svg" alt="Dark User Animated Banner" width="100%">
 </p>
 
 <p align="center">
