@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Dark User Tech — neon purple logo (SVG)
+  File: darkuser-logo.svg
+  Usage: save to repo and reference in README or HTML:
+    <img src="darkuser-logo.svg" alt="Dark User Tech">
+-->
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Dark User Tech logo">
+  <defs>
+    <!-- neon glow filter -->
+    <filter id="neon" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="6" result="blur1"/>
+      <feGaussianBlur stdDeviation="12" result="blur2"/>
+      <feMerge>
+        <feMergeNode in="blur2"/>
+        <feMergeNode in="blur1"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- dark-purple gradient for fill -->
+    <linearGradient id="gradPurple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#b892ff"/>
+      <stop offset="50%" stop-color="#9b5de5"/>
+      <stop offset="100%" stop-color="#7a3be0"/>
+    </linearGradient>
+
+    <!-- subtle stroke glow -->
+    <filter id="strokeGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="sGlow"/>
+      <feMerge>
+        <feMergeNode in="sGlow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- letter shadow for depth -->
+    <filter id="dropShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- background rectangle for preview (comment/remove if you want fully transparent) -->
+  <!-- <rect width="100%" height="100%" fill="#0b0711"/> -->
+
+  <!-- Left emblem: stylized DU monogram -->
+  <g transform="translate(70,30) scale(1)">
+    <!-- circle glow -->
+    <circle cx="0" cy="60" r="60" fill="url(#gradPurple)" filter="url(#neon)"/>
+    <!-- inner shape - D -->
+    <g transform="translate(-12,41)">
+      <path d="M-6 -21 L18 -21 C34 -21 40 -7 40 0 C40 16 28 21 18 21 L-6 21 Z"
+            transform="scale(1.25,1.1) translate(6,6)"
+            fill="#0f0c12" opacity="0.06"/>
+      <path d="M-8 -20 L20 -20 C36 -20 42 -8 42 0 C42 16 30 22 20 22 L-8 22 Z"
+            fill="url(#gradPurple)" stroke="#ffffff" stroke-opacity="0.08" stroke-width="0.6" filter="url(#strokeGlow)"/>
+      <text x="6" y="6" font-family="Orbitron, Arial, Helvetica, sans-serif" font-weight="700" font-size="36" fill="#ffffff" fill-opacity="0.06" text-anchor="middle">DU</text>
+    </g>
+  </g>
+
+  <!-- Main text -->
+  <g transform="translate(220,160)">
+    <!-- Big title -->
+    <text x="0" y="0" font-family="Orbitron, 'Segoe UI', Roboto, Arial" font-size="56" font-weight="800"
+          fill="url(#gradPurple)" filter="url(#neon)" style="letter-spacing:2px">
+      Dark User
+    </text>
+
+    <!-- subtitle -->
+    <text x="0" y="48" font-family="Inter, Arial, Helvetica, sans-serif" font-size="20" font-weight="600"
+          fill="#d9c9ff" fill-opacity="0.95" style="letter-spacing:1px">
+      Tech • ST-LITE Auto Installer v3.2
+    </text>
+
+    <!-- small tagline -->
+    <text x="0" y="78" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" fill="#bdb0ff" fill-opacity="0.9">
+      Powered by Dark User
+    </text>
+  </g>
+
+  <!-- small decorative neon underline -->
+  <g transform="translate(220,180)">
+    <rect x="0" y="20" width="420" height="4" rx="2" fill="#9b5de5" opacity="0.9" filter="url(#neon)"/>
+  </g>
+</svg>
