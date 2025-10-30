@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=800&size=35&pause=1000&color=9B5DE5&center=true&vCenter=true&width=800&lines=🟣+DARK+USER+TECH+🟣;ST-LITE+AUTO+INSTALLER+v3.2;Powered+by+Dark+User" alt="Dark User Logo">
+  <img src="darkuser-logo.svg" alt="Dark User Tech" width="800">
 </p>
 
 <h1 align="center">⚡ ST-LITE Auto Installer v3.2 ⚡</h1>
