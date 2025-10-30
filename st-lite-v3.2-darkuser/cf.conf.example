@@ -1,0 +1,4 @@
+CF_EMAIL="you@example.com"
+CF_API_TOKEN="your_api_token"
+CF_ZONE="example.com"
+CF_RECORD_PREFIX="vpn"

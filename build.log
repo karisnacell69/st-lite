@@ -1,0 +1,9 @@
+[*] Membuat struktur ST-LITE v3.2...
+[+] File dibuat: install-lite.sh
+[+] File dibuat: cloudflare-auto.sh
+[+] File dibuat: multiport-setup.sh
+[+] File dibuat: install-banner-darkuser.sh
+[+] File dibuat: update.sh
+[+] File dibuat: log-handler.sh
+[+] File dibuat: main-lite.sh
+[✓] Build selesai. Semua file berada di folder st-lite-v3.2-darkuser/
